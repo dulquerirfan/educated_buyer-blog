@@ -7,7 +7,6 @@ import "../components/style.css";
 import Footer from "../components/Footer";
 import {FaInstagram,FaFacebookSquare} from 'react-icons/fa';
 const IndexPage = () => 
-//time to fuck the home page
 (
   <div>
     <Seo title="Educated buyer" description="Get top news,comparision and get best deals about tech gadgets"/>
@@ -51,7 +50,7 @@ const IndexPage = () =>
   </Link>
    </div>
    <div className="second_section">
-     <div classname="follow_us">
+     <div className="follow_us">
      <h4>Follow us on</h4>
                  <div className="social_media">
                  <a href="https://www.instagram.com/educated_buyer/">

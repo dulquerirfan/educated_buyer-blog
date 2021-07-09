@@ -1,7 +1,6 @@
 import React from 'react';
-import {Link} from 'gatsby';
 import {Navbar,Nav} from 'react-bootstrap';
-function header() {
+function Header() {
   return (
     <div className="header">
     <Navbar bg="light" expand="lg" >
@@ -22,4 +21,4 @@ function header() {
   )
 }
 
-export default header
+export default Header
